@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PREMIER LEAGUE</title>
+        <style>
+            *{
+                font-family:'Arial Narrow Bold';
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+                background: linear-gradient(to right,#ff2882,#A66CFF);
+                
+            }
+            .div1{
+                background-color: aqua;
+                height: 600px;
+                width: 90%;
+                margin-left: 5%;
+                border-radius: 20px;
+                background-image: url("https://www.insidesport.in/wp-content/uploads/2021/09/zq5ch5o7z1f51.jpg");
+                background-size: 100% 600px;
+                border: 2px solid white;
+                box-shadow: 10px 10px 10px black,-10px -10px 10px black;
+                
+            }
+            .head{
+                height: 100px;
+                background: linear-gradient(to right,#ff2882,#A66CFF);
+            }
+            .head marquee{
+                font-weight: 700;
+                padding-top: 15px;
+                color: #FFF;
+                font-size: 60px;
+                text-shadow: 5px 5px 7px black;
+            }
+            .div2{
+                padding-top: 10px;
+                height: 60px;
+                background: #262626;
+            }
+            .div2 ul{
+                display: flex;
+                list-style-type: none;
+                justify-content: space-evenly;
+            }
+            .div2 ul li{
+                font-weight: 700;
+                background: #262626;
+                width: 170px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                float: left;
+                color: #FFF;
+                font-size: 14px;
+                position: relative;
+            }
+            .div2 a{
+                font-weight: 700;
+                color: #FFF;
+                font-size: 15px;
+                text-decoration: none;
+            }
+            .div2 ul li:hover{
+                background: crimson;
+                border: 1px solid #FFF;
+            }
+            .div2 ul ul{
+                display: none;
+            }
+            .div2 ul li:hover > ul{
+                display: block;
+                border: 1px solid #FFF;
+                
+            }
+            .about{    
+                height: 50%;
+                padding: 5% 8%;
+                background-image: url(FootBall/background14.webp);
+                background-size: 100% 100%;
+                margin: 2% 5% 5% 5%;
+                background-repeat: no-repeat;
+                border-radius: 30px;
+                border: 2px solid white;
+                box-shadow: 10px 10px 10px black,-10px -10px 10px black;
+            }
+            #about{
+                background-color: rgba(238, 233, 233, 1);
+                padding: 60px;
+                height: 570px;
+                width: 1000px;
+                border: 2px solid white;
+                border-radius: 25px;
+                box-shadow: 7px 7px 10px black inset,-5px -5px 10px black inset ;   
+            }
+            
+            
+            .heading2{
+                color: #000;
+                font-size: 40px;
+                margin-bottom: 20px;
+                
+            }
+            .para1{
+                
+                color: #000;
+                margin-top: 10px;
+                font-size: 18px;
+            }
+            .history{
+                height: 50%;
+                padding: 5% 8%;
+                background-image: url(FootBall/back3.jpg);
+                background-size: 100% 100%;
+                margin: 5%;
+                background-repeat: no-repeat;
+                border-radius: 30px;
+                border: 2px solid white;
+                box-shadow: 10px 10px 10px black,-10px -10px 10px black;
+            }
+            #history{
+                background-color: rgba(238, 233, 233, 0.7);
+                padding:20px 60px 20px 60px;
+                height: 700px;
+                width: 1000px;
+                border: 2px solid white;
+                border-radius: 25px;
+                box-shadow: 7px 7px 10px black inset,-5px -5px 10px black inset ;   
+            }
+            
+            .champ_main{
+                height: 500px;
+                background-image: url("FootBall/pemier_trophy.webp");
+                background-size: 100% 100%;
+                margin: 5%;
+                border-radius: 30px;
+                border: 2px solid white;
+                box-shadow: 10px 10px 10px black,-10px -10px 10px black;
+            }
+            .heading_champ{
+                padding: 30px 10px 0px 30px;
+                font-size: 45px;
+                background: linear-gradient(to right, #004ff9, #fff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke: 1px black;   
+            }
+            .champ{
+                margin-top: 30px;
+                /* background-color: #3EC70B; */
+                display: flex;
+                justify-content: space-evenly;
+                padding: 20px;
+            }
+            .champ a{
+                text-decoration: none;
+                text-transform: none;
+                color: #000;
+            }
+            .champ1{    
+                height: 250px;
+                width: 200px;
+                padding: 10px;
+                border: 2px solid black;
+                border-radius: 5px;
+                text-align: center;
+                background-color: rgba(238, 233, 233, 0.7);    
+            }
+            .champ1:hover{
+                background-color: #B2C8DF;
+                box-shadow: 3px 3px 10px black;
+                border-radius: 5px;
+            }
+            .img2{
+                height: 150px;
+                width: 200px;   
+            }
+            .champ1 hr{
+                height: 2px;
+                border: none;
+                background-color: black;
+                margin-top: 5px;
+            }
+            .name{
+                margin-top: 20px;
+            }  
+        </style>
+    </head>
+    <body>
+        <div class="div2">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li style="z-index: 1;">ABOUT
+                    <ul>
+                        <li><a href="#about_league">ABOUT LEAGUE</a></li>
+                        <li><a href="#about_history">ABOUT HISTORY</a></li>
+                    </ul>
+                </li>
+                <li><a href="fixtures.html">FIXTURES</a></li>
+                <li><a href="points_table.html">POINTS TABLE</a></li>
+                <li style="z-index: 1;">TEAMS
+                    <ul>
+                        <li><a href="manchester_city.html">MANCHESTER CITY</a></li>
+                        <li><a href="arsenal.html">ARSENAL</a></li>
+                        <li><a href="Hotspur.html">TOTTENHAM HOTSPUR</a></li>
+                        <li><a href="newcastle.html">NEWCASTLE</a></li>
+                        <li><a href="leeds.html">LEEDS UNITED</a></li>
+                        <li><a href="chelsea.html">CHELSEA</a></li>
+                        <li><a href="brighton.html">BRIGHTON</a></li>
+                        <li><a href="aston_villa.html">ASTON VILLA</a></li>
+                        <li><a href="nottingham.html">NOTTINGHAM FOREST</a></li>
+                        <li><a href="crystal_palace.html">CRYSTAL PALACE</a></li>
+                        <li><a href="liverpool.html">LIVERPOOL</a></li>
+                        <li><a href="everton.html">EVERTON</a></li>
+                        <li><a href="wolverhampton.html">WOLVERHAMPTON WANDERERS</a></li>
+                        <li><a href="manchester_united.html">MANCHESTER UNITED</a></li>
+                        <li><a href="westham.html">WEST HAM UNITED</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="head">
+            <marquee behaviour="alternate" scrollamount="15" direction="left">PREMIER LEAGUE 2022-23</marquee>
+        </div>
+        <div class="div1"></div>
+        <div style="height: 50px;"></div>
+        <div class="about" id="about_league">
+            <div id="about">
+            <h2 class="heading2"><u>ABOUT</u></h2>
+            <p class="para1">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Premier League (legal name: The Football Association Premier League Limited), is the top level of the men's
+                English football league system. Contested by 20 clubs, it operates on a system of promotion and relegation with
+                the English Football League (EFL). Seasons typically run from August to May with each team playing 38 matches
+                (playing all 19 other teams both home and away). Most games are played on Saturday and Sunday afternoons,
+                with occasional weekday evening fixtures.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The competition was founded as the FA Premier League on 20 February 1992 following the decision of clubs in the
+                Football League First Division to break away from the Football League, founded in 1888, and take advantage of a
+                lucrative television rights sale to Sky. From 2019 to 2020, the league's accumulated television rights deals
+                were worth around £3.1 billion a year, with Sky and BT Group securing the domestic rights to broadcast 128 and
+                32 games respectively. The Premier League is a corporation where chief executive Richard Masters is
+                responsible for its management, whilst the member clubs act as shareholders. Clubs were apportioned central
+                payment revenues of £2.4 billion in 2016-17, with a further £343 million in solidarity payments to English
+                Football League (EFL) clubs.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Premier League is the most-watched sports league in the world, broadcast in 212 territories to 643 million
+                homes and a potential TV audience of 4.7 billion people. For the 2018-19 season, the average Premier
+                League match attendance was at 38,181, second to the German Bundesliga's 43,500, while aggregated
+                attendance across all matches is the highest of any association football league at 14,508,981. Most stadium
+                occupancies are near capacity. The Premier League ranks first in the UEFA coefficients of leagues based on
+                performances in European competitions over the past five seasons as of 2021. The English top-flight has
+                produced the second-highest number of UEFA Champions League/European Cup titles, with five English clubs having
+                won fourteen European trophies in total.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fifty clubs have competed since the inception of the Premier League in 1992: forty-eight English and two Welsh
+                clubs. Seven of them have won the title: Manchester United (13), Manchester City (6), Chelsea (5), Arsenal (3),
+                Blackburn Rovers (1), Leicester City (1) and Liverpool (1).
+            </p>
+            </div>
+        </div>
+        <div class="history" id="about_history">
+            <div id="history">
+                <h2 class="heading2"><u>HISTORY</u></h2>
+                <p class="para1">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Premier League, also affectionately known as The Premiership, is the pride of football in
+                    the United Kingdom. The league is relatively young and was formed in response to the decline
+                    of the sport in UK during the 1980s. Football stadiums were being neglected and English football
+                    clubs were banned from competition in Europe as a result of the disaster that occurred during
+                    the 1985 European Cup Tournament at Heysel Stadium in Brussels. The Football League First
+                    Division, which had been the major English football league since 1888, lagged well behind its
+                    Italian and Spanish rivals and numerous top English players chose to play abroad.
+                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Around the early 1990s, things begin to turn around as England successfully reached the semi-finals
+                    in the 1990 FIFA World Cup. And Europe’s governing body of football, UEFA, lifted the five year ban
+                    on European competitions in that same year. The league has seen an explosion in growth and is
+                    currently the most watched sporting league in the world.
+                    In February of 1992, The FA Premier League was formed and the first games were played in August
+                    of the same year. Originally, there were 22 clubs in league.
+                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; However, currently there are 22 teams in the league. The FA Premier League’s name was officially
+                    changed to the The Premier League in 2007. The league is also known as Barclays Premier League
+                    since its official sponsor is Barclays Bank. Currently the league is at the top of the English
+                    football league system and at the end of the 2007-2008 season had completed 16 seasons of football.
+                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Premier League’s football seasons run from August to May and each team plays a total of 38
+                    games. Over the years, a total of 40 football clubs have participated in The Premier League.
+                    However, of the 40 teams that have competed in The Premier League, only 4 have won the UK Premiership
+                    title – those teams include Manchester United, Blackburn Rovers, Arsenal, and Chelsea. The current
+                    football champion is Manchester United who holds the record of winning the most Premiership
+                    titles – Manchester United boasts a total of 10 UK Premiership titles.
+                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Premier League is structured as a corporation with the 20 participating football clubs
+                    holding interest in the league. Each participating club in The Premiership is treated as a
+                    shareholder and is entitled to one vote on the issues such as contracts and rule changes. The
+                    chairman, chief executive, and board of directors oversee daily operations of The Premier 
+                    League are elected by the shareholders. Though the Football Association is not involved
+                    directly in the daily operations, it is treated a special shareholder and holds the power of
+                    veto during the election of the chief executive and chairman whenever new rules are put in
+                    place by the league.
+                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The UK Premiership is wildly popular throughout the world and owes much of its success to media
+                    coverage of football sporting events. The decision in 1992 to assign broadcasting rights to
+                    BSkyB has paid off enormously. Over a half a billion people follow the league and it is
+                    particularly popular in Asia, where it is the most widely promoted sports program.
+                </p>
+            </div>
+
+        </div>
+        <div class="champ_main">
+            <h2 class="heading_champ">PAST 5 YEARS CHAMPIONS</h2>
+            <div class="champ">
+                <a href="manchester_city.html"><div class="champ1">
+                    <img class="img2" src="FootBall/champ_21-22.jpg">
+                    <hr>
+                    <h3 class="name">MANCHESTER CITY</h3>
+                    <p style="font-weight:600;margin-top: 10px;">2021-22</p>
+                </div></a>
+                <a href="manchester_city.html"><div class="champ1">
+                    <img class="img2" src="FootBall/champ_20-21.jpg">
+                    <hr>
+                    <h3 class="name">MANCHESTER CITY</h3>
+                    <p style="font-weight:600;margin-top: 10px;">2020-21</p>
+                </div></a>
+                <a href="liverpool.html"><div class="champ1">
+                    <img class="img2" src="FootBall/champ_19-20.jpg">
+                    <hr>
+                    <h3 class="name">LIVERPOOL</h3>
+                    <p style="font-weight:600;margin-top: 10px;">2019-20</p>
+                </div></a>
+                <a href="manchester_city.html"><div class="champ1">
+                    <img class="img2" src="FootBall/champ_18-19.webp">
+                    <hr>
+                    <h3 class="name">MANCHESTER CITY</h3>
+                    <p style="font-weight:600;margin-top: 10px;">2018-19</p>
+                </div></a>
+                <a href="manchester_city.html"><div class="champ1">
+                    <img class="img2" src="FootBall/champ_17-18.webp">
+                    <hr>
+                    <h3 class="name">MANCHESTER CITY</h3>
+                    <p style="font-weight:600;margin-top: 10px;">2017-18</p>
+                </div></a>
+            </div>
+        </div>
+    </body>
+</html>

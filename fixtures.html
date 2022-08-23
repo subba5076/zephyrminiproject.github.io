@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FIXTURES</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+                background-color: aquamarine;
+                
+            }
+            .div1{
+                background-color: aqua;
+                height: 120px;
+                padding: 10px;
+            }
+            .img1{
+                height: 120px;
+                display: inline-block;
+            }
+            .heading1{
+                font-size: 80px;
+                margin: 15px 0px 0px 50px;
+                color: #350459;
+                display: inline-block;
+                position: absolute;
+            }
+            .div2{
+                padding-top: 10px;
+                height: 60px;
+                background: #262626;
+            }
+            .div2 ul{
+                display: flex;
+                list-style-type: none;
+                justify-content: space-evenly;
+            }
+            .div2 ul li{
+                font-weight: 700;
+                background: #262626;
+                width: 170px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                float: left;
+                color: #FFF;
+                font-size: 14px;
+                position: relative;
+            }
+            .div2 a{
+                font-weight: 700;
+                color: #FFF;
+                font-size: 15px;
+                text-decoration: none;
+            }
+            .div2 ul li:hover{
+                background: crimson;
+                border: 1px solid #FFF;
+            }
+            .div2 ul ul{
+                display: none;
+            }
+            .div2 ul li:hover > ul{
+                display: block;
+                border: 1px solid #FFF;
+            }
+            .main{
+                background-image: url("FootBall/stadium.jpg");
+                height: 100%; 
+                padding-bottom: 40px;
+                
+            }
+            .match{
+                background-color: rgba(0, 0, 0, 0.2);
+                width: 800px;
+                margin: 20px 0px;
+                box-shadow: 1px 1px ;
+            }
+            .match:hover{
+                box-shadow: 3px 3px 3px;
+            }
+            .heading2{
+                color: #FFF;
+                font-size: 35px;
+                padding: 30px;
+            }
+            .logo{
+                height: 50px;
+                border-radius: 100%;
+                display: inline-block;
+            }
+            table{
+                color: #FFF;
+                padding:10px 0px;
+            }
+            span{
+                font-size: 30px;
+            }
+            .col1{
+                text-align: right;
+            }
+            .col2,.col4{
+                text-align: center;
+                font-size: 18px;
+                width: 150px;
+                
+            }
+            .col3{
+                text-align: center;
+                width: 30px;
+            }
+            .col5{
+                text-align: left;
+                
+            }
+            .timings{
+                color: #FFF;
+                font-size: 15px;
+                background-color: rgba(53, 4, 89, 0.5);
+                padding: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div1">
+            <img class="img1" src="FootBall/premier_logo2.png">
+            <h1 class="heading1">Premier League</h1>
+        </div>
+        <div class="div2">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>ABOUT
+                    <ul>
+                        <li><a href="index.html#about_league">ABOUT LEAGUE</a></li>
+                        <li><a href="index.html#about_history">ABOUT HISTORY</a></li>
+                    </ul>
+                </li>
+                <li><a href="fixtures.html">FIXTURES</a></li>
+                <li><a href="points_table.html">POINTS TABLE</a></li>
+                <li>TEAMS
+                    <ul>
+                        <li><a href="manchester_city.html">MANCHESTER CITY</a></li>
+                        <li><a href="arsenal.html">ARSENAL</a></li>
+                        <li><a href="Hotspur.html">TOTTENHAM HOTSPUR</a></li>
+                        <li><a href="newcastle.html">NEWCASTLE</a></li>
+                        <li><a href="leeds.html">LEEDS UNITED</a></li>
+                        <li><a href="chelsea.html">CHELSEA</a></li>
+                        <li><a href="brighton.html">BRIGHTON</a></li>
+                        <li><a href="aston_villa.html">ASTON VILLA</a></li>
+                        <li><a href="nottingham.html">NOTTINGHAM FOREST</a></li>
+                        <li><a href="crystal_palace.html">CRYSTAL PALACE</a></li>
+                        <li><a href="liverpool.html">LIVERPOOL</a></li>
+                        <li><a href="everton.html">EVERTON</a></li>
+                        <li><a href="wolverhampton.html">WOLVERHAMPTON WANDERERS</a></li>
+                        <li><a href="manchester_united.html">MANCHESTER UNITED</a></li>
+                        <li><a href="westham.html">WEST HAM UNITED</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="main"><center>
+            <h2 class="heading2">Upcoming Matches</h2>
+            <div class="match">
+                <table>
+                    <tr>
+                        <td class="col1"><img class="logo" src="FootBall/manchester_united_logo.png"></td>
+                        <td class="col2">Man United</td>
+                        <td class="col3"><span>VS</span></td>
+                        <td class="col4">Liverpool</td>
+                        <td class="col5"><img class="logo" src="FootBall/liverpool_logo.png"></td>
+                    </tr>
+                </table>
+                <pre class="timings">&#x1f4c5;  August 23 00:30  &#x1f3df;  Old Trafford, Manchester</pre>
+            </div>
+            <div class="match">
+                <table>
+                    <tr>
+                        <td class="col1"><img class="logo" src="FootBall/brighton_logo.png"></td>
+                        <td class="col2">Brighton</td>
+                        <td class="col3"><span>VS</span></td>
+                        <td class="col4">Leeds United</td>
+                        <td class="col5"><img class="logo" src="FootBall/leeds_united_logo.png"></td>
+                    </tr>
+                </table>
+                <pre class="timings">&#x1f4c5;  August 27 19:30  &#x1f3df;  Amex Stadium, Falmer</pre>
+            </div>
+            <div class="match">
+                <table>
+                    <tr>
+                        <td class="col1"><img class="logo" src="FootBall/mancity_logo.png"></td>
+                        <td class="col2">Man City</td>
+                        <td class="col3"><span>VS</span></td>
+                        <td class="col4">Crystal Palace</td>
+                        <td class="col5"><img class="logo" src="FootBall/crystal_palace_logo.png"></td>
+                    </tr>
+                </table>
+                <pre class="timings">&#x1f4c5;  August 27 19:30  &#x1f3df;  Etihad Stadium, Manchester</pre>
+            </div>
+            <div class="match">
+                <table>
+                    <tr>
+                        <td class="col1"><img class="logo" src="FootBall/arsenal_logo.png"></td>
+                        <td class="col2">Arsenal</td>
+                        <td class="col3"><span>VS</span></td>
+                        <td class="col4">Everton</td>
+                        <td class="col5"><img class="logo" src="FootBall/everton_logo.png"></td>
+                    </tr>
+                </table>
+                <pre class="timings">&#x1f4c5;  August 27 22:00  &#x1f3df;  Emirates Stadium, London</pre>
+            </div>
+            <div class="match">
+                <table>
+                    <tr>
+                        <td class="col1"><img class="logo" src="FootBall/aston_villa_logo.png"></td>
+                        <td class="col2">Aston Villa</td>
+                        <td class="col3"><span>VS</span></td>
+                        <td class="col4">West Ham</td>
+                        <td class="col5"><img class="logo" src="FootBall/westham_logo.png"></td>
+                    </tr>
+                </table>
+                <pre class="timings">&#x1f4c5;  August 28 18:30  &#x1f3df;   Villa Park, Birmingham</pre>
+            </div>
+            <div class="match">
+                <table>
+                    <tr>
+                        <td class="col1"><img class="logo" src="FootBall/wolverhampton_logo.png"></td>
+                        <td class="col2">Wolves</td>
+                        <td class="col3"><span>VS</span></td>
+                        <td class="col4">Newcastle</td>
+                        <td class="col5"><img class="logo" src="FootBall/Newcastle_logo.png"></td>
+                    </tr>
+                </table>
+                <pre class="timings">&#x1f4c5;  August 28 18:30  &#x1f3df;   Molineux Stadium, Wolverhampton</pre>
+            </div>
+            <div class="match">
+                <table>
+                    <tr>
+                        <td class="col1"><img class="logo" src="FootBall/nottingham_forest_logo.png"></td>
+                        <td class="col2">Nott'm Forest</td>
+                        <td class="col3"><span>VS</span></td>
+                        <td class="col4">Spurs</td>
+                        <td class="col5"><img class="logo" src="FootBall/Totenham_hotspur_logo.png"></td>
+                    </tr>
+                </table>
+                <pre class="timings">&#x1f4c5;  August 28 21:00  &#x1f3df;   The City Ground, Nottingham</pre>
+            </div>
+            <div class="match">
+                <table>
+                    <tr>
+                        <td class="col1"><img class="logo" src="FootBall/crystal_palace_logo.png"></td>
+                        <td class="col2">Crystal Palace</td>
+                        <td class="col3"><span>VS</span></td>
+                        <td class="col4">Chelsea</td>
+                        <td class="col5"><img class="logo" src="FootBall/chelsea_logo.png"></td>
+                    </tr>
+                </table>
+                <pre class="timings">&#x1f4c5;  August 31 00:00  &#x1f3df;   Selhurst Park, London</pre>
+            </div>
+            <div class="match">
+                <table>
+                    <tr>
+                        <td class="col1"><img class="logo" src="FootBall/leeds_united_logo.png"></td>
+                        <td class="col2">Leeds United</td>
+                        <td class="col3"><span>VS</span></td>
+                        <td class="col4">Everton</td>
+                        <td class="col5"><img class="logo" src="FootBall/everton_logo.png"></td>
+                    </tr>
+                </table>
+                <pre class="timings">&#x1f4c5;  August 31 00:30  &#x1f3df;   Elland Road, Leeds</pre>
+            </div>
+        </center></div>
+        
+    </body>
+</html>

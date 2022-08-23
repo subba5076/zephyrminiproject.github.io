@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>POINTS TABLE</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+                background-color: aquamarine;
+                background-image: url("/FootBall/background2.jpg");
+            }
+            .div1{
+                background-color: aqua;
+                height: 120px;
+                padding: 10px;
+            }
+            .img1{
+                height: 120px;
+                display: inline-block;
+            }
+            .heading1{
+                font-size: 80px;
+                margin: 15px 0px 0px 50px;
+                color: #350459;
+                display: inline-block;
+                position: absolute;
+            }
+            .div2{
+                padding-top: 10px;
+                height: 60px;
+                background: #262626;
+            }
+            .div2 ul{
+                display: flex;
+                list-style-type: none;
+                justify-content: space-evenly;
+            }
+            .div2 ul li{
+                font-weight: 700;
+                background: #262626;
+                width: 170px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                float: left;
+                color: #FFF;
+                font-size: 14px;
+                position: relative;
+            }
+            .div2 a{
+                font-weight: 700;
+                color: #FFF;
+                font-size: 15px;
+                text-decoration: none;
+            }
+            /* .div2 ul li ul li{
+                height: 40px;
+            } */
+            .div2 ul li:hover{
+                background: crimson;
+                border: 1px solid #FFF;
+            }
+            .div2 ul ul{
+                display: none;
+            }
+            .div2 ul li:hover > ul{
+                display: block;
+                border: 1px solid #FFF;
+            }
+            table{
+                background-color: rgba(255, 255, 255, 0.9);
+                margin: 40px 0px 40px 350px;
+                border: 2px solid;
+                text-align: center;
+                border-collapse: collapse;
+            }
+            tr{
+                border: 2px solid;
+            }
+            tr:hover{
+                background-color: rgb(223, 239, 252);
+            }
+            .first_row:hover,.last_row:hover{
+                background-color: #FFF;
+            }
+            td,th{
+                padding: 7px 0px 7px 0px;
+            }
+            .col1,.col2,.col4,.col5,.col6,.col7,.col8,.col9,.col10{
+                width: 50px;
+            }
+            .col3{
+                text-align: left;
+                width: 230px;
+            }
+            .col12{
+                width: 130px;
+            }
+            .tick{
+                margin: 2px 2px 0px 2px;
+            }
+            .logo{
+                height: 20px;
+                border-radius: 100%;
+            }
+            td a{
+                text-decoration: none;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div1">
+            <img class="img1" src="FootBall/premier_logo2.png">
+            <h1 class="heading1">Premier League</h1>
+        </div>
+        <div class="div2">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li style="z-index: 1;">ABOUT
+                    <ul>
+                        <li><a href="index.html#about_league">ABOUT LEAGUE</a></li>
+                        <li><a href="index.html#about_history">ABOUT HISTORY</a></li>
+                    </ul>
+                </li>
+                <li><a href="fixtures.html">FIXTURES</a></li>
+                <li><a href="points_table.html">POINTS TABLE</a></li>
+                <li>TEAMS
+                    <ul>
+                        <li><a href="manchester_city.html">MANCHESTER CITY</a></li>
+                        <li><a href="arsenal.html">ARSENAL</a></li>
+                        <li><a href="Hotspur.html">TOTTENHAM HOTSPUR</a></li>
+                        <li><a href="newcastle.html">NEWCASTLE</a></li>
+                        <li><a href="leeds.html">LEEDS UNITED</a></li>
+                        <li><a href="chelsea.html">CHELSEA</a></li>
+                        <li><a href="brighton.html">BRIGHTON</a></li>
+                        <li><a href="aston_villa.html">ASTON VILLA</a></li>
+                        <li><a href="nottingham.html">NOTTINGHAM FOREST</a></li>
+                        <li><a href="crystal_palace.html">CRYSTAL PALACE</a></li>
+                        <li><a href="liverpool.html">LIVERPOOL</a></li>
+                        <li><a href="everton.html">EVERTON</a></li>
+                        <li><a href="wolverhampton.html">WOLVERHAMPTON WANDERERS</a></li>
+                        <li><a href="manchester_united.html">MANCHESTER UNITED</a></li>
+                        <li><a href="westham.html">WEST HAM UNITED</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <table>
+            <tr class="first_row">
+                <th colspan="3">CLUBS</th>
+                <th class="col4">MP</th>
+                <th class="col5">W</th>
+                <th class="col6">D</th>
+                <th class="col7">L</th>
+                <th class="col8">GF</th>
+                <th class="col9">GA</th>
+                <th class="col10">GD</th>
+                <th class="col11">Pts</th>
+                <th class="col12">LAST 5</th>
+            </tr>
+            <tr>
+                <td class="col1">1</td>
+                <td class="col2"><img class="logo" src="FootBall/arsenal_logo.png"></td>
+                <td class="col3"><a href="arsenal.html">ARSENAL</a></td>
+                <td class="col4">3</td>
+                <td class="col5">3</td>
+                <td class="col6">0</td>
+                <td class="col7">0</td>
+                <td class="col8">9</td>
+                <td class="col9">2</td>
+                <td class="col10">7</td>
+                <td class="col11">9</td>
+                <td class="col12"><img class="tick" src="FootBall/geentick.svg"><img class="tick" src="FootBall/geentick.svg">
+                    <img class="tick" src="FootBall/geentick.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">2</td>
+                <td class="col2"><img class="logo" src="FootBall/mancity_logo.png"></td>
+                <td class="col3"><a href="manchester_city.html">MANCHESTER CITY</a></td>
+                <td class="col4">3</td>
+                <td class="col5">2</td>
+                <td class="col6">1</td>
+                <td class="col7">0</td>
+                <td class="col8">9</td>
+                <td class="col9">3</td>
+                <td class="col10">6</td>
+                <td class="col11">7</td>
+                <td class="col12"><img class="tick" src="FootBall/dashtick.svg"><img class="tick" src="FootBall/geentick.svg">
+                    <img class="tick" src="FootBall/geentick.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">3</td>
+                <td class="col2"><img class="logo" src="FootBall/leeds_united_logo.png"></td>
+                <td class="col3"><a href="leeds.html">LEEDS UNITED</a></td>
+                <td class="col4">3</td>
+                <td class="col5">2</td>
+                <td class="col6">1</td>
+                <td class="col7">0</td>
+                <td class="col8">7</td>
+                <td class="col9">3</td>
+                <td class="col10">4</td>
+                <td class="col11">7</td>
+                <td class="col12"><img class="tick" src="FootBall/geentick.svg"><img class="tick" src="FootBall/dashtick.svg">
+                    <img class="tick" src="FootBall/geentick.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">4</td>
+                <td class="col2"><img class="logo" src="FootBall/Totenham_hotspur_logo.png"></td>
+                <td class="col3"> <a href="Hotspur.html">TOTTENHAM HOTSPUR</a></td>
+                <td class="col4">3</td>
+                <td class="col5">2</td>
+                <td class="col6">1</td>
+                <td class="col7">0</td>
+                <td class="col8">7</td>
+                <td class="col9">3</td>
+                <td class="col10">4</td>
+                <td class="col11">7</td>
+                <td class="col12"><img class="tick" src="FootBall/geentick.svg"><img class="tick" src="FootBall/dashtick.svg">
+                    <img class="tick" src="FootBall/geentick.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">5</td>
+                <td class="col2"><img class="logo" src="FootBall/brighton_logo.png"></td>
+                <td class="col3"><a href="brighton.html">BRIGHTON</a></td>
+                <td class="col4">3</td>
+                <td class="col5">2</td>
+                <td class="col6">1</td>
+                <td class="col7">0</td>
+                <td class="col8">4</td>
+                <td class="col9">1</td>
+                <td class="col10">3</td>
+                <td class="col11">7</td>
+                <td class="col12"><img class="tick" src="FootBall/geentick.svg"><img class="tick" src="FootBall/dashtick.svg">
+                    <img class="tick" src="FootBall/geentick.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">6</td>
+                <td class="col2"><img class="logo" src="FootBall/Newcastle_logo.png"></td>
+                <td class="col3"><a href="newcastle.html">NEWCASTLE</a></td>
+                <td class="col4">3</td>
+                <td class="col5">1</td>
+                <td class="col6">2</td>
+                <td class="col7">0</td>
+                <td class="col8">5</td>
+                <td class="col9">3</td>
+                <td class="col10">2</td>
+                <td class="col11">5</td>
+                <td class="col12"><img class="tick" src="FootBall/dashtick.svg"><img class="tick" src="FootBall/dashtick.svg">
+                    <img class="tick" src="FootBall/geentick.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            
+            <tr>
+                <td class="col1">7</td>
+                <td class="col2"><img class="logo" src="FootBall/crystal_palace_logo.png"></td>
+                <td class="col3"><a href="crystal_palace.html">CRISTAL PALACE</a></td>
+                <td class="col4">3</td>
+                <td class="col5">1</td>
+                <td class="col6">1</td>
+                <td class="col7">1</td>
+                <td class="col8">4</td>
+                <td class="col9">4</td>
+                <td class="col10">0</td>
+                <td class="col11">4</td>
+                <td class="col12"><img class="tick" src="FootBall/geentick.svg"><img class="tick" src="FootBall/dashtick.svg">
+                    <img class="tick" src="FootBall/crosstick.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">8</td>
+                <td class="col2"><img class="logo" src="FootBall/nottingham_forest_logo.png"></td>
+                <td class="col3"><a href="nottingham.html">NOTTINGHAM FOREST</a></td>
+                <td class="col4">3</td>
+                <td class="col5">1</td>
+                <td class="col6">1</td>
+                <td class="col7">1</td>
+                <td class="col8">2</td>
+                <td class="col9">3</td>
+                <td class="col10">-1</td>
+                <td class="col11">4</td>
+                <td class="col12"><img class="tick" src="FootBall/dashtick.svg"><img class="tick" src="FootBall/geentick.svg">
+                    <img class="tick" src="FootBall/crosstick.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">9</td>
+                <td class="col2"><img class="logo" src="FootBall/chelsea_logo.png"></td>
+                <td class="col3"><a href="chelsea.html">CHELSEA</a></td>
+                <td class="col4">3</td>
+                <td class="col5">1</td>
+                <td class="col6">1</td>
+                <td class="col7">1</td>
+                <td class="col8">3</td>
+                <td class="col9">5</td>
+                <td class="col10">-2</td>
+                <td class="col11">4</td>
+                <td class="col12"><img class="tick" src="FootBall/crosstick.svg"><img class="tick" src="FootBall/dashtick.svg">
+                    <img class="tick" src="FootBall/geentick.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">10</td>
+                <td class="col2"><img class="logo" src="FootBall/aston_villa_logo.png"></td>
+                <td class="col3"><a href="aston_villa.html">ASTON VILLA</a></td>
+                <td class="col4">3</td>
+                <td class="col5">1</td>
+                <td class="col6">0</td>
+                <td class="col7">2</td>
+                <td class="col8">3</td>
+                <td class="col9">6</td>
+                <td class="col10">-3</td>
+                <td class="col11">3</td>
+                <td class="col12"><img class="tick" src="FootBall/crosstick.svg"><img class="tick" src="FootBall/geentick.svg">
+                    <img class="tick" src="FootBall/crosstick.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">11</td>
+                <td class="col2"><img class="logo" src="FootBall/liverpool_logo.png"></td>
+                <td class="col3"><a href="liverpool.html">LIVERPOOL</a></td>
+                <td class="col4">2</td>
+                <td class="col5">0</td>
+                <td class="col6">2</td>
+                <td class="col7">0</td>
+                <td class="col8">3</td>
+                <td class="col9">3</td>
+                <td class="col10">0</td>
+                <td class="col11">2</td>
+                <td class="col12"><img class="tick" src="FootBall/dashtick.svg"><img class="tick" src="FootBall/dashtick.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">12</td>
+                <td class="col2"><img class="logo" src="FootBall/everton_logo.png"></td>
+                <td class="col3"><a href="everton.html">EVERTON</a></td>
+                <td class="col4">3</td>
+                <td class="col5">0</td>
+                <td class="col6">1</td>
+                <td class="col7">2</td>
+                <td class="col8">2</td>
+                <td class="col9">4</td>
+                <td class="col10">-2</td>
+                <td class="col11">1</td>
+                <td class="col12"><img class="tick" src="FootBall/dashtick.svg"><img class="tick" src="FootBall/crosstick.svg">
+                    <img class="tick" src="FootBall/crosstick.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">13</td>
+                <td class="col2"><img class="logo" src="FootBall/wolverhampton_logo.png"></td>
+                <td class="col3"><a href="wolverhampton.html">WOLVERHAMPTON WANDERERS</a></td>
+                <td class="col4">3</td>
+                <td class="col5">0</td>
+                <td class="col6">1</td>
+                <td class="col7">2</td>
+                <td class="col8">1</td>
+                <td class="col9">3</td>
+                <td class="col10">-2</td>
+                <td class="col11">1</td>
+                <td class="col12"><img class="tick" src="FootBall/crosstick.svg"><img class="tick" src="FootBall/dashtick.svg">
+                    <img class="tick" src="FootBall/crosstick.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">14</td>
+                <td class="col2"><img class="logo" src="FootBall/manchester_united_logo.png"></td>
+                <td class="col3"><a href="manchester_united.html">MANCHESTER UNITED</a></td>
+                <td class="col4">2</td>
+                <td class="col5">0</td>
+                <td class="col6">0</td>
+                <td class="col7">2</td>
+                <td class="col8">1</td>
+                <td class="col9">6</td>
+                <td class="col10">-5</td>
+                <td class="col11">0</td>
+                <td class="col12"><img class="tick" src="FootBall/crosstick.svg"><img class="tick" src="FootBall/crosstick.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">15</td>
+                <td class="col2"><img class="logo" src="FootBall/westham_logo.png"></td>
+                <td class="col3"><a href="westham.html">WEST HAM UNITED</a></td>
+                <td class="col4">3</td>
+                <td class="col5">0</td>
+                <td class="col6">0</td>
+                <td class="col7">3</td>
+                <td class="col8">0</td>
+                <td class="col9">5</td>
+                <td class="col10">-5</td>
+                <td class="col11">0</td>
+                <td class="col12"><img class="tick" src="FootBall/crosstick.svg"><img class="tick" src="FootBall/crosstick.svg">
+                    <img class="tick" src="FootBall/crosstick.svg"><img class="tick" src="FootBall/emptycircle.svg">
+                    <img class="tick" src="FootBall/emptycircle.svg"></td>
+            </tr>
+            <tr class="last_row">
+                <td style="text-align:left; padding:10px 0px 10px 30px;" rowspan="3" colspan="12">
+                    <img style="margin-right: 7px;" src="FootBall/geentick.svg">Win
+                    <br><img style="margin-right: 7px;" src="FootBall/dashtick.svg">Draw
+                    <br><img style="margin-right: 7px;" src="FootBall/crosstick.svg">Loss
+                    <br><img style="margin-right: 7px;" src="FootBall/emptycircle.svg">Not Played
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
